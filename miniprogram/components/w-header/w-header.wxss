@@ -1,0 +1,25 @@
+/* components/w-header.wxss */
+.header {
+  background-color: #f5f5f5;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-left: 4px solid #36ab60;
+  padding: 0 12rpx;
+  font-size: 34rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.title {
+  display: inline-block;
+  height: 100%;
+  word-break: keep-all;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}

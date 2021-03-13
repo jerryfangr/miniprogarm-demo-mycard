@@ -1,0 +1,19 @@
+<!--pages/cardlist/cardlist.wxml-->
+<block wx:for="{{cardList}}" wx:key="id" wx:for-item="card">
+  <w-header title="{{title + ' ' + (index + 1)}}">
+    <view class="operate-bar">
+      <w-operate-button 
+        icon="/assets/image/copy.png" 
+        title="复制"
+        background="#e75c31"
+        data-index="{{index}}"
+        bindtap="copyID"/>
+      <w-operate-button 
+        icon="/assets/image/delete.png"
+        title="删除"
+        data-index="{{index}}"
+        bindtap="deleteCard"/>
+    </view>
+  </w-header>
+  <w-card-info card="{{card}}" showImage="{{false}}"/>
+</block>

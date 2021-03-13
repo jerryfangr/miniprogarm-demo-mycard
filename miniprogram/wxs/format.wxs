@@ -1,0 +1,8 @@
+var format = {
+  toFixed: function (number, decimalPlaces) {
+    decimalPlaces = decimalPlaces || 2;
+    return number.toFixed(decimalPlaces);
+  }
+}
+
+module.exports = format;

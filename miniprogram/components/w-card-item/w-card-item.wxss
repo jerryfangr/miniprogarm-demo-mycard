@@ -1,0 +1,14 @@
+/* components/w-card-item/w-card-item.wxss */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item .icon {
+  width: 110rpx;
+}
+
+.item .text {
+  font-size: 35rpx;
+  margin-top: 10rpx;
+}

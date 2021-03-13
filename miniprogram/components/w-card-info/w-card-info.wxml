@@ -1,0 +1,15 @@
+<!--components/w-card-info/w-card-info.wxml-->
+<view class="card-info">
+  <view class="row"><text class="title">姓名</text>: {{card.name}}</view>
+  <view class="row"><text class="title">出身</text>: {{card.birth}}</view>
+  <view class="row"><text class="title">性别</text>: {{card.sex}}</view>
+  <view class="row"><text class="title">地址</text>: {{card.address}}</view>
+  <view class="row"><text class="title">民族</text>: {{card.nation}}</view>
+  <view class="row"><text class="title">身份证</text>: {{card.id}}</view>
+  <image 
+    wx:if="{{showImage}}" 
+    class="image row"
+    src="{{card.fileID}}" 
+    mode="widthFix"></image>
+
+</view>

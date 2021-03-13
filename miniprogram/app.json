@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/profile/profile",
+    "pages/recognize/recognize",
+    "pages/cardlist/cardlist"
+  ],
+  "window": {
+    "backgroundColor": "#FFF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "卡证管理",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/image/home.png",
+        "selectedIconPath": "assets/image/home_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "assets/image/profile.png",
+        "selectedIconPath": "assets/image/profile_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "w-header": "components/w-header/w-header",
+    "w-tool-bar": "/components/w-tool-bar/w-tool-bar",
+    "w-card-info": "/components/w-card-info/w-card-info",
+    "w-operate-button": "/components/w-operate-button/w-operate-button"
+  }
+}

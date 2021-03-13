@@ -1,0 +1,21 @@
+/* components/w-card-info/w-card-info.wxss */
+.card-info {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  font-size: 30rpx;
+  background-color: #fff;
+}
+
+.card-info .row:nth-child(n+2) {
+  margin-top: 10rpx;
+}
+
+.card-info .title {
+  display: inline-block;
+  width: 3em;
+}
+
+.card-info .image {
+  width: 100%;
+}

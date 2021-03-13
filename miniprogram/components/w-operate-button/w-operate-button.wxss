@@ -1,0 +1,22 @@
+/* components/w-opearte-button/w-operate-button.wxss */
+.operate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 10rpx;
+  color:#fff;
+  border-radius: 10rpx;
+  background-color: #e45e2c;
+  margin-right: 16rpx;
+  font-size: 29rpx;
+}
+
+.operate-btn .icon {
+  height: 60%;
+  margin-right: 10rpx;
+}
+
+.hover {
+  opacity: .8;
+}

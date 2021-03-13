@@ -1,0 +1,11 @@
+<!--pages/home/components/w-cart-category/w-cart-category.wxml-->
+<view class="card-category">
+  <block wx:for="{{categories}}" wx:key="UNIQUE">
+    <w-card-item 
+      class="card-item" 
+      name="{{item.name}}" 
+      icon="{{item.icon}}"
+      data-index="{{index}}"
+      bindtap="itemClick"/>
+  </block>
+</view>

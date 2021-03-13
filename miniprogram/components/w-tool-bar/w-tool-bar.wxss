@@ -1,0 +1,20 @@
+/* components/w-tool-bar/w-tool-bar.wxss */
+.tool-bar {
+  height: 82rpx;
+  margin: 0 60rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 0 8rpx 2rpx #ccc;
+  border-radius: 4rpx;
+}
+.tool-bar .icon {
+  height: 50rpx;
+  margin-right: 20rpx;
+}
+
+.hover {
+  opacity: .8;
+}

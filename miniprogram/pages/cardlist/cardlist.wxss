@@ -1,0 +1,6 @@
+/* pages/cardlist/cardlist.wxss */
+.operate-bar {
+  height: 70%;
+  display: flex;
+}
+

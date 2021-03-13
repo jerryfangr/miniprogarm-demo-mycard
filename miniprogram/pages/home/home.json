@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "w-card-category": "components/w-card-category/w-card-category"
+
+  }
+}
