@@ -31,7 +31,7 @@ exports.main = async (event, context) => {
 
 ## 预览
 
-> 下图中预览证件来自腾讯云官方实例，仅供测试
+> 下面预览图中证件来自腾讯云官方实例，仅供测试
 
 ![card-manage](./preview/card-manage.jpg) 
 
