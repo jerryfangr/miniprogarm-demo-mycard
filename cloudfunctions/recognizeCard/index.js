@@ -9,9 +9,9 @@ exports.main = async (event, context) => {
   const wxContext = cloud.getWXContext()
   let {cardUrl, type='0'} = event;
   // 腾讯卡证识别api配置
-  let AppId = 'AppId';
-  let SecretId = 'AKIDtd8NVP9lCG8lBTtJ8gz7MLFtHvRho0mw';
-  let SecretKey = 'mIp8C9tRpyqeDXgdK8QRCfutRDwVotup';
+  let AppId = '';
+  let SecretId = '';
+  let SecretKey = '';
   let imgClient = new ImageClient({ AppId, SecretId, SecretKey });
 
   if (type === '0') {
